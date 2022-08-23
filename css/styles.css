@@ -79,6 +79,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section{
+  padding-top:94px ;
+  padding-bottom:94px ;
+}
 
 
 /*=========СТУДИЯ=========*/
@@ -87,8 +91,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .header-page {
   border-bottom: 1px solid #ececec;
@@ -131,6 +134,8 @@ body {
 }
 
 .contact-elem {
+  padding-top: 32px;
+  padding-bottom:32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -156,17 +161,16 @@ body {
   line-height: 1.88;
   cursor: pointer;
   background-color: var(--accent-color);
-  color: var(--secondary-color);
+  color:var(--alternativ-color)
 }
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--alternativ-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px #2196f3;
   border-radius: 4px;
+  border: #2196F3;
 }
 /*^^^кнопкин end^^^*/
-.hero {
+ .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
@@ -187,10 +191,8 @@ body {
   color: var(--alternativ-color);
 }
 /*=====презент=====*/
-.present-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/*.present-container*/ 
+ 
 .present-list {
   display: flex;
   align-items: baseline;
@@ -215,14 +217,15 @@ body {
   line-height: 1.71;
 }
 /*=====worky=====*/
+.worky{
+  padding-top: 0;
+}
 
 .worky-list {
   display: flex;
   justify-content: space-between;
 }
-.worky-container {
-  padding-bottom: 94px;
-}
+
 
 /*=====(who)team=====*/
 .section-title {
@@ -236,10 +239,7 @@ body {
 .team {
   background: #f5f4fa;
 }
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -267,13 +267,11 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 /*=====ноги=====*/
-.foot {
+.section.foot {
   background: #2f303a;
-}
-.foot-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+  padding:60px 0 ;
+  }
+/*.foot-container*/
 .logotyp-footer {
   margin-left: 0;
   width:145px;
@@ -283,9 +281,11 @@ body {
   color: var(--accent-color);
 }
 .address {
-  width:241px;
   font-style: normal;
   margin-top: 20px;
+}
+.foot-elem:not(:last-child){
+  margin-bottom: 9px;
 }
 .studi {
   font-family: var(--secondary-font);
@@ -308,8 +308,6 @@ body {
 }
 /*=========ПОРТФОЛИО=========*/
 .portfolio-container{
-  padding-top:94px;
-  padding-bottom:94px;
   margin: 0 auto;
 }
 .filtr-list,
