@@ -65,7 +65,6 @@ span {
 body {
   font-family: var(--primary-font);
   font-size: 14px;
-  font-weight: 700;
   background-color: var(--alternativ-color);
   color: var(--primary-color);
   letter-spacing: 0.03em;
@@ -156,7 +155,9 @@ body {
   margin: 0 auto;
   padding-top: 8px;
   padding-bottom: 8px;
-
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
@@ -166,8 +167,7 @@ body {
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
   box-shadow: 0px 4px 4px #2196f3;
-  border-radius: 4px;
-  border: #2196F3;
+  
 }
 /*^^^кнопкин end^^^*/
  .hero {
@@ -205,7 +205,6 @@ body {
 }
 .present-title {
   margin-bottom: 10px;
-
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -293,13 +292,11 @@ body {
   color: var(--alternativ-color);
 }
 .foot-map {
-  font-weight: 400;
-  line-height: 24px;
+  line-height:1.5;
   color: var(--alternativ-color);
 }
 .foot-link {
-  font-weight: 400;
-  line-height: 24px;
+  line-height:1.5;
   color: rgba(255, 255, 255, 0.6);
 }
 .foot-link:hover,
@@ -307,9 +304,7 @@ body {
   color: var(--accent-color);
 }
 /*=========ПОРТФОЛИО=========*/
-.portfolio-container{
-  margin: 0 auto;
-}
+
 .filtr-list,
 .galera-list{
   display: flex;
@@ -349,7 +344,7 @@ body {
 .filtr-button {
   border-radius:4px;
   border:none;
-  padding:6px 22px;
+  padding:6px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -369,6 +364,7 @@ body {
 .filtr-button.active {
   background-color: var(--accent-color);
   color: var(--alternativ-color);
+  padding: 6px 25px;
 }
 /*^^^кнопки закончились^^^*/
 
