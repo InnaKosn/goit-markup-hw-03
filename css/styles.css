@@ -266,11 +266,11 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 /*=====ноги=====*/
-.section.foot {
+.footer {
   background: #2f303a;
   padding:60px 0 ;
   }
-/*.foot-container*/
+
 .logotyp-footer {
   margin-left: 0;
   width:145px;
